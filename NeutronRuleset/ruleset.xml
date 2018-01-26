@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <ruleset name="NeutronRuleset">
- <description>Neutron Ruleset.</description>
- <rule ref="VariableAnalysis"/>
- <rule ref="NeutronStandard"/>
- <rule ref="WordPress"/>
- <rule ref="Squiz.Commenting">
-	 <severity>0</severity>
- </rule>
- <rule ref="WordPress.Files.FileName">
-	 <severity>0</severity>
- </rule>
- <rule ref="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid">
-	 <severity>0</severity>
- </rule>
- <rule ref="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned">
-	 <severity>0</severity>
- </rule>
- <rule ref="Generic.Formatting.MultipleStatementAlignment.NotSameWarning">
- 	<severity>0</severity>
- </rule>
- <rule ref="Generic.Commenting.DocComment.MissingShort">
- 	<severity>0</severity>
- </rule>
- <rule ref="WordPress.PHP.YodaConditions.NotYoda">
- 	<severity>0</severity>
- </rule>
- <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie.ContentAfterBrace">
- 	<severity>0</severity>
- </rule>
- <rule ref="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis">
- 	<severity>0</severity>
- </rule>
+	<description>Neutron Ruleset.</description>
+	<rule ref="VariableAnalysis"/>
+	<rule ref="NeutronStandard"/>
+	<rule ref="WordPress"/>
+	<rule ref="Squiz.Commenting">
+		<severity>0</severity>
+	</rule>
+	<rule ref="WordPress.Files.FileName">
+		<severity>0</severity>
+	</rule>
+	<rule ref="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid">
+		<severity>0</severity>
+	</rule>
+	<rule ref="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Generic.Formatting.MultipleStatementAlignment.NotSameWarning">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Generic.Commenting.DocComment.MissingShort">
+		<severity>0</severity>
+	</rule>
+	<rule ref="WordPress.PHP.YodaConditions.NotYoda">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie.ContentAfterBrace">
+		<severity>0</severity>
+	</rule>
+	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis">
+		<severity>0</severity>
+	</rule>
 </ruleset>
