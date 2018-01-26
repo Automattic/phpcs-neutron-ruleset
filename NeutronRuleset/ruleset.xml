@@ -25,4 +25,10 @@
  <rule ref="WordPress.PHP.YodaConditions.NotYoda">
  	<severity>0</severity>
  </rule>
+ <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie.ContentAfterBrace">
+ 	<severity>0</severity>
+ </rule>
+ <rule ref="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis">
+ 	<severity>0</severity>
+ </rule>
 </ruleset>
