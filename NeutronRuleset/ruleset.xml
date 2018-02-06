@@ -55,4 +55,7 @@
 	<rule ref="NeutronStandard.Functions.TypeHint.NoArgumentType">
 		<severity>0</severity>
 	</rule>
+	<rule ref="WordPress.PHP.StrictComparisons.LooseComparison">
+		<type>error</type>
+	</rule>
 </ruleset>
