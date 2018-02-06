@@ -34,4 +34,7 @@
 	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes.StrictTypes">
 		<type>warning</type>
 	</rule>
+	<rule ref="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound">
+		<type>warning</type>
+	</rule>
 </ruleset>
