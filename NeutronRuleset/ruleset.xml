@@ -40,4 +40,7 @@
 	<rule ref="WordPress.VIP.DirectDatabaseQuery.NoCaching">
 		<type>warning</type>
 	</rule>
+	<rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis.UndefinedVariable">
+		<type>error</type>
+	</rule>
 </ruleset>
