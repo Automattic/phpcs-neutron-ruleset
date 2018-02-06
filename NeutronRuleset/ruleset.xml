@@ -31,4 +31,7 @@
 	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis">
 		<severity>0</severity>
 	</rule>
+	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes.StrictTypes">
+		<type>warning</type>
+	</rule>
 </ruleset>
