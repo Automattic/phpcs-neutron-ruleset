@@ -49,4 +49,10 @@
 	<rule ref="WordPress.PHP.StrictInArray.MissingTrueStrict">
 		<type>error</type>
 	</rule>
+	<rule ref="NeutronStandard.Functions.TypeHint.NoReturnType">
+		<severity>0</severity>
+	</rule>
+	<rule ref="NeutronStandard.Functions.TypeHint.NoArgumentType">
+		<severity>0</severity>
+	</rule>
 </ruleset>
