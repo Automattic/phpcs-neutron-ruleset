@@ -38,7 +38,7 @@
 		<type>warning</type>
 	</rule>
 	<rule ref="WordPress.VIP.DirectDatabaseQuery.NoCaching">
-		<type>warning</type>
+		<severity>0</severity>
 	</rule>
 	<rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis.UndefinedVariable">
 		<type>error</type>
@@ -57,5 +57,8 @@
 	</rule>
 	<rule ref="WordPress.PHP.StrictComparisons.LooseComparison">
 		<type>error</type>
+	</rule>
+	<rule ref="WordPress.VIP.DirectDatabaseQuery.DirectQuery">
+		<severity>0</severity>
 	</rule>
 </ruleset>
