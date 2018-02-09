@@ -64,4 +64,7 @@
 	<rule ref="WordPress.VIP.RestrictedFunctions.switch_to_blog_switch_to_blog">
 		<severity>0</severity>
 	</rule>
+	<rule ref="WordPress.WP.PreparedSQL.NotPrepared">
+		<type>warning</type>
+	</rule>
 </ruleset>
