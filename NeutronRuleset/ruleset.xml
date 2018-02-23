@@ -70,4 +70,7 @@
 	<rule ref="WordPress.VIP.SuperGlobalInputUsage.AccessDetected">
 		<severity>0</severity>
 	</rule>
+	<rule ref="WordPress.XSS.EscapeOutput.OutputNotEscaped">
+		<severity>0</severity>
+	</rule>
 </ruleset>
