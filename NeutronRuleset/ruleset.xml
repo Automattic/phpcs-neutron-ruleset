@@ -43,6 +43,11 @@
 	<rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis.UndefinedVariable">
 		<type>error</type>
 	</rule>
+	<rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis">
+		<properties>
+			<property name="allowUnusedCaughtExceptions" value="true"/>
+		</properties>
+	</rule>
 	<rule ref="NeutronStandard.Functions.LongFunction.LongFunction">
 		<severity>0</severity>
 	</rule>
