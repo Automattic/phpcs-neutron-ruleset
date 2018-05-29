@@ -10,6 +10,9 @@
 	<rule ref="WordPress.Files.FileName">
 		<severity>0</severity>
 	</rule>
+	<rule ref="WordPress.PHP.DevelopmentFunctions">
+		<severity>0</severity>
+	</rule>
 	<rule ref="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid">
 		<severity>0</severity>
 	</rule>
