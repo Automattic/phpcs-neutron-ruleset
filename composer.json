@@ -4,6 +4,7 @@
     "license": "MIT",
     "require": {
         "sirbrillig/phpcs-variable-analysis": "^2.0.3",
+        "sirbrillig/phpcs-import-detection": "^1.0.0",
         "wp-coding-standards/wpcs": "^0.14.0",
         "automattic/phpcs-neutron-standard": "^1.1.0"
     },

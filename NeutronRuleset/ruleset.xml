@@ -3,8 +3,17 @@
 	<description>Neutron Ruleset.</description>
 	<rule ref="VariableAnalysis"/>
 	<rule ref="NeutronStandard"/>
+	<rule ref="ImportDetection"/>
 	<rule ref="WordPress"/>
 	<rule ref="Squiz.Commenting">
+		<severity>0</severity>
+	</rule>
+	<rule ref="ImportDetection.Imports.RequireImports">
+		<properties>
+			<property name="ignoreUnimportedSymbols" value="/^(sanitize_file_name|(un)?load_textdomain|BD_PROCESSOR_[A-Z_]+|BD_STRIPE_[A-Z_]+|BD_PAYPAL_[A-Z_]+|BD_TXN[A-Z_]+|BD_TYPE[A-Z_]+|BILLINGDADDY_HOME|get_current_blog\S*|wp_\S+|get_current_user\S*|require_lib|wp_parse_args|OBJECT\S*|ARRAY_\S+|is_wp_error|__|_x|esc_html\S*|get_blog_\S+|get_user_meta|do_action|apply_filters|add_action|add_filter|WP_[A-Z_]+|WPCOM_[A-Z_]+|tracks_record_event|mysql2date|date_i18n)$/"/>
+		</properties>
+	</rule>
+	<rule ref="Generic.Commenting.DocComment.SpacingBeforeTags">
 		<severity>0</severity>
 	</rule>
 	<rule ref="WordPress.Files.FileName">
@@ -42,6 +51,9 @@
 	</rule>
 	<rule ref="WordPress.VIP.DirectDatabaseQuery.NoCaching">
 		<severity>0</severity>
+	</rule>
+	<rule ref="ImportDetection.Imports.RequireImports.Import">
+		<type>error</type>
 	</rule>
 	<rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis.UndefinedVariable">
 		<type>error</type>
