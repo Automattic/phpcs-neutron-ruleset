@@ -11,6 +11,7 @@ This is a meta-project in that it's just a collection of rules defined in these 
 - [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
 - [VariableAnalysis](https://github.com/sirbrillig/phpcs-variable-analysis)
 - [NeutronStandard](https://github.com/Automattic/phpcs-neutron-standard)
+- [ImportDetection](https://github.com/sirbrillig/phpcs-import-detection)
 
 ## Installation
 
