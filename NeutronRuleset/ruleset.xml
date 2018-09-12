@@ -10,7 +10,9 @@
 	</rule>
 	<rule ref="ImportDetection.Imports.RequireImports">
 		<properties>
-			<property name="ignoreUnimportedSymbols" value="/^(sanitize_file_name|(un)?load_textdomain|BD_PROCESSOR_[A-Z_]+|BD_STRIPE_[A-Z_]+|BD_PAYPAL_[A-Z_]+|BD_TXN[A-Z_]+|BD_TYPE[A-Z_]+|BILLINGDADDY_HOME|get_current_blog\S*|wp_\S+|get_current_user\S*|require_lib|wp_parse_args|OBJECT\S*|ARRAY_\S+|is_wp_error|_n|__|_x|esc_html\S*|get_blog_\S+|get_user_meta|do_action|apply_filters|add_action|add_filter|remove_filter|remove_action|WP_[A-Z_]+|WPCOM_[A-Z_]+|tracks_record_event|mysql2date|date_i18n|WPMU_[A-Z_]+|[A-Z_]+_IN_SECONDS|switch_to_blog|restore_current_blog)$/"/>
+			<property name="ignoreUnimportedSymbols" value="/^(BD_PROCESSOR_[A-Z_]+|BD_STRIPE_[A-Z_]+|BD_PAYPAL_[A-Z_]+|BD_TXN[A-Z_]+|BD_TYPE[A-Z_]+|BILLINGDADDY_HOME|require_lib|WPCOM_[A-Z_]+|tracks_record_event)$/"/>
+			<property name="ignoreGlobalsWhenInGlobalScope" value="true"/>
+			<property name="ignoreWordPressSymbols" value="true"/>
 		</properties>
 	</rule>
 	<rule ref="Generic.Commenting.DocComment.SpacingBeforeTags">
