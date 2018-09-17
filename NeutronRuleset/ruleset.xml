@@ -10,7 +10,7 @@
 	</rule>
 	<rule ref="ImportDetection.Imports.RequireImports">
 		<properties>
-			<property name="ignoreUnimportedSymbols" value="/^(BD_PROCESSOR_[A-Z_]+|BD_STRIPE_[A-Z_]+|BD_PAYPAL_[A-Z_]+|BD_TXN[A-Z_]+|BD_TYPE[A-Z_]+|BILLINGDADDY_HOME|require_lib|WPCOM_[A-Z_]+|tracks_record_event)$/"/>
+			<property name="ignoreUnimportedSymbols" value="/^(BD_PROCESSOR_[A-Z_]+|BD_STRIPE_[A-Z_]+|BD_PAYPAL_[A-Z_]+|BD_TXN[A-Z_]+|BD_TYPE[A-Z_]+|BILLINGDADDY_HOME|require_lib|WPCOM_[A-Z_]+|tracks_record_event|BD_INTERVAL_[A-Z_]+)$/"/>
 			<property name="ignoreGlobalsWhenInGlobalScope" value="true"/>
 			<property name="ignoreWordPressSymbols" value="true"/>
 		</properties>
