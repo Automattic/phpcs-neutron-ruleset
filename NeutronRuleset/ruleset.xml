@@ -51,7 +51,7 @@
 	<rule ref="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound">
 		<type>warning</type>
 	</rule>
-	<rule ref="WordPress.VIP.DirectDatabaseQuery.NoCaching">
+	<rule ref="WordPress.DB.DirectDatabaseQuery.NoCaching">
 		<severity>0</severity>
 	</rule>
 	<rule ref="ImportDetection.Imports.RequireImports.Import">
@@ -80,19 +80,13 @@
 	<rule ref="WordPress.PHP.StrictComparisons.LooseComparison">
 		<type>error</type>
 	</rule>
-	<rule ref="WordPress.VIP.DirectDatabaseQuery.DirectQuery">
+	<rule ref="WordPress.DB.DirectDatabaseQuery.DirectQuery">
 		<severity>0</severity>
 	</rule>
-	<rule ref="WordPress.VIP.RestrictedFunctions.switch_to_blog_switch_to_blog">
-		<severity>0</severity>
-	</rule>
-	<rule ref="WordPress.WP.PreparedSQL.NotPrepared">
+	<rule ref="WordPress.DB.PreparedSQL.NotPrepared">
 		<type>warning</type>
 	</rule>
-	<rule ref="WordPress.VIP.SuperGlobalInputUsage.AccessDetected">
-		<severity>0</severity>
-	</rule>
-	<rule ref="WordPress.XSS.EscapeOutput.OutputNotEscaped">
+	<rule ref="WordPress.Security.EscapeOutput.OutputNotEscaped">
 		<severity>0</severity>
 	</rule>
 	<rule ref="WordPress.PHP.DevelopmentFunctions.error_log_var_export">
