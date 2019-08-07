@@ -4,7 +4,7 @@
 	<rule ref="VariableAnalysis"/>
 	<rule ref="NeutronStandard"/>
 	<rule ref="ImportDetection"/>
-	<rule ref="WordPress"/>
+	<rule ref="WordPress-Core"/>
 	<rule ref="Squiz.Commenting">
 		<severity>0</severity>
 	</rule>
