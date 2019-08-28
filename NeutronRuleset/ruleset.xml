@@ -15,6 +15,9 @@
 			<property name="ignoreWordPressSymbols" value="true"/>
 		</properties>
 	</rule>
+	<rule ref="PEAR.Functions.FunctionCallSignature.MultipleArguments">
+		<severity>0</severity>
+	</rule>
 	<rule ref="Generic.Commenting.DocComment.SpacingBeforeTags">
 		<severity>0</severity>
 	</rule>
