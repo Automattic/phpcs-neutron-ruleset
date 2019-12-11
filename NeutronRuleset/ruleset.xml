@@ -68,9 +68,6 @@
 			<property name="allowUnusedCaughtExceptions" value="true"/>
 		</properties>
 	</rule>
-	<rule ref="NeutronStandard.Functions.LongFunction.LongFunction">
-		<severity>0</severity>
-	</rule>
 	<rule ref="WordPress.PHP.StrictInArray.MissingTrueStrict">
 		<type>error</type>
 	</rule>
