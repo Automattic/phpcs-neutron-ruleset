@@ -4,7 +4,7 @@
     "description": "A PHPCS meta-ruleset for WordPress development",
     "license": "MIT",
     "require": {
-        "php": "~7.0",
+        "php": "^7.0 || ^8.0",
         "automattic/phpcs-neutron-standard": "^1.5.3",
         "sirbrillig/phpcs-import-detection": "^1.1.4",
         "sirbrillig/phpcs-variable-analysis": "^2.6.1",
