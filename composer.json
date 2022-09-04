@@ -1,6 +1,7 @@
 {
     "name": "automattic/phpcs-neutron-ruleset",
     "type": "phpcodesniffer-standard",
+    "keywords": [ "phpcs", "static analysis" ],
     "description": "A PHPCS meta-ruleset for WordPress development",
     "license": "MIT",
     "require": {
