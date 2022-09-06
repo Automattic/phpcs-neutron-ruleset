@@ -2,6 +2,13 @@
 
 These are a set of modern (PHP >7) linting guidelines for WordPress development. Because of the newer PHP version, it is not suitable for work on Core WordPress, but may be useful for those who are not bound by PHP 5.2.
 
+
+> **Warning**
+>
+> **IMPORTANT NOTE:** This project is no longer actively developed. At Automattic we've switched to using the [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) + [VariableAnalysis](https://github.com/sirbrillig/phpcs-variable-analysis).
+
+-----
+
 These guidelines are being developed primarily for a team within [Automattic](https://automattic.com/), but anyone is free to use them, suggest changes, or report bugs.
 
 This project is a [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) "standard" (a collection of rules or "sniffs") that can be included in any project.
